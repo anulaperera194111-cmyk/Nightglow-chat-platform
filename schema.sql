@@ -1,0 +1,3 @@
+-- The Flask app runs these CREATE TABLE statements automatically.
+-- Neon PostgreSQL is the production database. Messages are isolated by chat_id,
+-- with per-chat expiry timestamps and an automatic purge on every request.
